@@ -1,7 +1,7 @@
 % Solve H-equation using ETDRK & AB2AM2 for Stefan problem
 % Written by Divya Jagannathan on 15 Sept 2023
 
-%clear all
+clear all
 clc
 
 alp = 0.620063; whichEx = 2;
@@ -127,3 +127,4 @@ xlabel('$t$', 'Interpreter','latex','FontSize',14);
 ylabel('$|v(t)-\alpha/\sqrt{t}|, |x(t)-2\alpha \sqrt{t}|$','Interpreter','latex','FontSize',14);
 hold on
 %pbaspect([6,4,1]);
+
