@@ -33,3 +33,4 @@ function [x, v, hr, hi] = swd_evolve(oldstate,hr0,hi0,params,k,w,nstage)
         disp("not a valid option.")
     end
 end
+
