@@ -1,5 +1,5 @@
 function [x,w] = wt_clencurt(N)
-% (N+1) quadrature points: n=0,1,...,N
+ % (N+1) quadrature points: n=0,1,...,N
     
  theta = pi*(0:N)/N; theta = fliplr(theta); x = cos(theta);       % abscissae
  
@@ -8,3 +8,4 @@ function [x,w] = wt_clencurt(N)
  avec = (pi/2)*linspace(1,1,N+1); avec(1) = pi;
  w = (pi/(N))*(bvec(1)/avec(1))*dvec;    
 end
+
