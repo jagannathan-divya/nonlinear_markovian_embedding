@@ -40,7 +40,6 @@ end
 % TIME-INTEGRATION ENDS HERE 
 % ----------------------------%
 
-
 % PLOTS
 hop = 1;
 
@@ -66,3 +65,4 @@ xlabel('time');
 ylim([-5,5]); pbaspect([10, 3, 1]);
 %legend([p2],{'velocity'},'Location','north');
 set(gca, 'FontSize', 16);
+
