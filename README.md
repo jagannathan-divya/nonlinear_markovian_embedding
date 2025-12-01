@@ -1,0 +1,1 @@
+This repository contains the Matlab codes used in the article titled "Markovian Embedding of Nonlinear Memory via Spectral Representation" ([10.1016/j.cnsns.2025.109540](https://doi.org/10.1016/j.cnsns.2025.109540)).
